@@ -2,16 +2,36 @@
 
 Personal learning system for building practical AI engineering, MLOps, RAG, agent, and production deployment skills.
 
-This repository is intentionally public-safe in style even though the repo is private. It uses generalized examples, synthetic data, and self-created learning projects only.
+This repository is intentionally public-safe. It uses generalized examples, synthetic data, and self-created learning projects only.
+
+The website is not just a curriculum index. It is an interactive self-paced course. Each lesson includes:
+
+- original explanation
+- system diagram
+- worked example
+- code or configuration
+- line-by-line guidance
+- lab
+- knowledge check
+- solution guidance
+- interview question
+- evidence gate
 
 ## Learning Tracks
 
-- RAG systems: chunking, embeddings, retrieval, prompt assembly, and grounded generation
-- Azure AI: Azure AI Foundry, Azure OpenAI, Azure AI Search, deployment concepts, and evaluation
-- MCP and agents: tools, resources, schemas, planning, memory, and evaluation
-- Production MLOps: model versioning, CI/CD, monitoring, drift detection, rollback, and cost tracking
-- Health AI specialization: FHIR-shaped data, clinical-style validation, governance, responsible AI, and interoperability
-- Capstone: synthetic health-data AI readiness and triage copilot
+- Modern LLM applications
+- Prompt and context engineering
+- Embeddings and semantic search
+- RAG and advanced retrieval
+- RAG evaluation
+- Azure AI engineering
+- Tool calling, agents, and MCP
+- FastAPI, Docker, testing, and CI/CD
+- AI observability and production architecture
+- Fine-tuning decision framework
+- Deep learning foundations
+- Health AI engineering
+- ML Dataset Readiness and Operations Copilot capstone
 
 ## Repository Structure
 
@@ -52,8 +72,10 @@ Build the capstone project in stages:
 
 1. Synthetic health-data schema and generator
 2. Data validation and quality report
-3. Baseline predictive model
-4. API serving layer
-5. RAG assistant over public/synthetic guidance
-6. Monitoring dashboard
-7. Model card, data card, and deployment runbook
+3. Embedding and retrieval prototype
+4. RAG assistant over public/synthetic guidance
+5. Baseline predictive model
+6. API serving layer
+7. Docker, tests, and CI/CD
+8. Monitoring dashboard
+9. Model card, data card, and deployment runbook
