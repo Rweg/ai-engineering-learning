@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Engineering Learning</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Personal AI Engineering Academy</p>
+        <h1>AI Engineering Learning</h1>
+      </div>
+      <nav aria-label="Primary navigation">
+        <a href="#learn">Learn</a>
+        <a href="#health-ai">Health AI</a>
+        <a href="#capstone">Capstone</a>
+        <a href="#progress">Progress</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <h2>Interactive training for production AI engineering.</h2>
+          <p>
+            Work through RAG, Azure AI, agents, MCP, MLOps, health AI, and a
+            synthetic-data capstone. Track progress, test yourself, and convert
+            learning into portfolio evidence.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#learn">Start Learning</a>
+            <a class="button" href="#capstone">Open Capstone</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="Learning progress summary">
+          <div class="metric">
+            <span id="completeCount">0</span>
+            <p>completed items</p>
+          </div>
+          <div class="metric">
+            <span id="quizScore">0%</span>
+            <p>quiz accuracy</p>
+          </div>
+          <div class="metric">
+            <span>90</span>
+            <p>day roadmap</p>
+          </div>
+        </aside>
+      </section>
+
+      <section id="learn" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Curriculum</p>
+            <h2>Core Modules</h2>
+          </div>
+          <button class="button" id="resetProgress" type="button">Reset Progress</button>
+        </div>
+        <div class="learning-layout">
+          <div class="module-list" id="moduleList" aria-label="Learning modules"></div>
+          <article class="module-detail" id="moduleDetail" aria-live="polite"></article>
+        </div>
+      </section>
+
+      <section id="health-ai" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Specialization</p>
+            <h2>Health AI Engineering Lane</h2>
+          </div>
+        </div>
+        <div class="grid" id="healthGrid"></div>
+      </section>
+
+      <section id="capstone" class="section split">
+        <div>
+          <p class="eyebrow">Portfolio Project</p>
+          <h2>National Health AI Readiness and Triage Copilot</h2>
+          <p>
+            A synthetic-data-only capstone that demonstrates data quality checks,
+            model evaluation, API serving, RAG, monitoring, documentation, and
+            responsible deployment patterns for health-system AI.
+          </p>
+          <a class="button primary" href="projects/national-health-ai-readiness-copilot.md">Read Project Spec</a>
+        </div>
+        <div class="milestone-list" id="capstoneMilestones"></div>
+      </section>
+
+      <section id="progress" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Execution</p>
+            <h2>90-Day Learning Plan</h2>
+          </div>
+        </div>
+        <div class="timeline">
+          <article>
+            <h3>Days 1-30</h3>
+            <p>RAG fundamentals, Azure AI Search, evaluation basics, Docker, and API serving.</p>
+          </article>
+          <article>
+            <h3>Days 31-60</h3>
+            <p>MLOps workflows, experiment tracking, CI/CD, monitoring, drift checks, and rollback design.</p>
+          </article>
+          <article>
+            <h3>Days 61-90</h3>
+            <p>Health AI specialization, FHIR-shaped data, responsible AI review, and capstone documentation.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built for focused, public-safe AI engineering practice.</p>
+    </footer>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
